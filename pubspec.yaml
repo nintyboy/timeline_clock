@@ -1,0 +1,27 @@
+name: timeline_clock
+description: Timeline clock, Created for Flutter.dev Clock challenge by @Nintyboy
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  cupertino_icons: ^0.1.2
+  google_fonts: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Circular
+      fonts:
+        - asset: third_party/CircularStd-Book.otf
+
